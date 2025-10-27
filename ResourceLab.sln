@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11121.172 d18.0
+VisualStudioVersion = 18.0.11121.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceLab", "public\ResourceLab\ResourceLab.csproj", "{630BCD6F-E3E6-45F8-B94C-19F6CED70DCB}"
 EndProject
@@ -27,6 +27,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceLab.Demo", "private\ResourceLab.Demo\ResourceLab.Demo.csproj", "{8C9CFF36-B8ED-478D-8CBA-D9BA9075C593}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceLab.Tests", "private\ResourceLab.Tests\ResourceLab.Tests.csproj", "{AE42B7EA-A540-403C-81AC-50DF6DD14602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{7145B242-AA44-4D79-8D17-6E2619F57FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{B9645890-644D-153E-D2CE-A0C892177717}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +62,10 @@ Global
 		{AE42B7EA-A540-403C-81AC-50DF6DD14602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE42B7EA-A540-403C-81AC-50DF6DD14602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE42B7EA-A540-403C-81AC-50DF6DD14602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9645890-644D-153E-D2CE-A0C892177717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9645890-644D-153E-D2CE-A0C892177717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9645890-644D-153E-D2CE-A0C892177717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9645890-644D-153E-D2CE-A0C892177717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +78,8 @@ Global
 		{BF03CB84-AD9D-41C5-B4E6-993DD9320B0A} = {6AE639FA-2679-4642-8DF2-079B8D1DBA2C}
 		{8C9CFF36-B8ED-478D-8CBA-D9BA9075C593} = {EC7E98D8-7C89-42CF-919C-7E304262B41B}
 		{AE42B7EA-A540-403C-81AC-50DF6DD14602} = {EC7E98D8-7C89-42CF-919C-7E304262B41B}
+		{7145B242-AA44-4D79-8D17-6E2619F57FFB} = {EC7E98D8-7C89-42CF-919C-7E304262B41B}
+		{B9645890-644D-153E-D2CE-A0C892177717} = {7145B242-AA44-4D79-8D17-6E2619F57FFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEE5366C-CFFC-4ECF-8B3D-A05FDCE6B68F}
