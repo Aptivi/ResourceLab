@@ -54,7 +54,7 @@ namespace ResourceLab.Tests
         {
             LocalizedResource.AddResource();
             var strResource = ResourcesManager.GetResourceManager("ResDemo3");
-            var spanish = new CultureInfo("es-SP");
+            var spanish = new CultureInfo("es");
             strResource.GetString("StringResource", spanish).ShouldNotBeNull();
             strResource.GetString("StringResource2", spanish).ShouldNotBeNull();
             strResource.GetString("StringResource3", spanish).ShouldBeNull();

@@ -57,7 +57,7 @@ namespace ResourceLab.Demo
             SeparatorWriterColor.WriteSeparator("[3 out of 3] Localized resources", ThemeColorType.Banner, true);
             LocalizedResource.AddResource();
             var locResource = ResourcesManager.GetResourceManager("ResDemo3");
-            var spanish = new CultureInfo("es-SP");
+            var spanish = new CultureInfo("es");
             string resultStringSpanish1 = locResource.GetString("StringResource", spanish) ?? "RESOURCE IS INVALID (UNEXPECTED)";
             string resultStringSpanish2 = locResource.GetString("StringResource2", spanish) ?? "RESOURCE IS INVALID (UNEXPECTED)";
             string resultStringSpanish3 = locResource.GetString("StringResource3", spanish) ?? "RESOURCE IS INVALID (EXPECTED)";
