@@ -14,6 +14,75 @@
       }
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceLab.Exceptions.ResourceLabException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceLab.Exceptions.ResourceLabException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ResourceLab.Exceptions.ResourceLabException",
+      "Summary": "<p sourcefile=\"api/ResourceLab.Exceptions.ResourceLabException.yml\" sourcestartlinenumber=\"1\">Exception class of resource management errors</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceLab.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceLab.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ResourceLab.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceLab.Management.ResourcesManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceLab.Management.ResourcesManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ResourceLab.Management.ResourcesManager",
+      "Summary": "<p sourcefile=\"api/ResourceLab.Management.ResourcesManager.yml\" sourcestartlinenumber=\"1\">Manages the resources</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ResourceLab.Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ResourceLab.Management.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ResourceLab.Management",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {

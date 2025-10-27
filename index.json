@@ -1,4 +1,24 @@
 {
+  "api/ResourceLab.Exceptions.ResourceLabException.html": {
+    "href": "api/ResourceLab.Exceptions.ResourceLabException.html",
+    "title": "Class ResourceLabException | ResourceLab API - Aptivi",
+    "summary": "Class ResourceLabException Exception class of resource management errors Inheritance object Exception ResourceLabException Namespace: ResourceLab.Exceptions Assembly: ResourceLab.dll Syntax public class ResourceLabException : Exception Constructors | Edit this page View Source ResourceLabException() Creates a new instance of this exception Declaration public ResourceLabException() | Edit this page View Source ResourceLabException(string) Creates a new instance of this exception Declaration public ResourceLabException(string message) Parameters Type Name Description string message Message to describe the exception | Edit this page View Source ResourceLabException(string, Exception) Creates a new instance of this exception Declaration public ResourceLabException(string message, Exception innerException) Parameters Type Name Description string message Message to describe the exception Exception innerException Inner exception to use"
+  },
+  "api/ResourceLab.Exceptions.html": {
+    "href": "api/ResourceLab.Exceptions.html",
+    "title": "Namespace ResourceLab.Exceptions | ResourceLab API - Aptivi",
+    "summary": "Namespace ResourceLab.Exceptions Classes ResourceLabException Exception class of resource management errors"
+  },
+  "api/ResourceLab.Management.ResourcesManager.html": {
+    "href": "api/ResourceLab.Management.ResourcesManager.html",
+    "title": "Class ResourcesManager | ResourceLab API - Aptivi",
+    "summary": "Class ResourcesManager Manages the resources Inheritance object ResourcesManager Namespace: ResourceLab.Management Assembly: ResourceLab.dll Syntax public static class ResourcesManager Properties | Edit this page View Source ResourceManagers A list of resource managers Declaration public static ReadOnlyDictionary<string, ResourceManager> ResourceManagers { get; } Property Value Type Description ReadOnlyDictionary<string, ResourceManager> Methods | Edit this page View Source AddResourceManager(string, ResourceManager) Adds a resource manager to the list of resources Declaration public static void AddResourceManager(string name, ResourceManager resourceManager) Parameters Type Name Description string name Tag name of the resource manager to track ResourceManager resourceManager Resource manager to track Exceptions Type Condition ResourceLabException If resource already exists or doesn't exist in the resource manager | Edit this page View Source EditResourceManager(string, ResourceManager) Edits a resource manager in the list of resources Declaration public static void EditResourceManager(string name, ResourceManager resourceManager) Parameters Type Name Description string name Tag name of the resource manager to track ResourceManager resourceManager Resource manager to replace with Exceptions Type Condition ResourceLabException If resource already exists or doesn't exist in the resource manager | Edit this page View Source GetResourceManager(string) Gets the resource manager Declaration public static ResourceManager GetResourceManager(string name) Parameters Type Name Description string name Tag name of the resource manager to track Returns Type Description ResourceManager Output resource manager | Edit this page View Source RemoveResourceManager(string) Removes a resource manager from the list of resources Declaration public static void RemoveResourceManager(string name) Parameters Type Name Description string name Tag name of the resource manager to remove Exceptions Type Condition ResourceLabException If resource doesn't exist | Edit this page View Source ResourceManagerExists(string) Checks to see if a resource manager exists Declaration public static bool ResourceManagerExists(string name) Parameters Type Name Description string name Tag name of the resource manager to track Returns Type Description bool True if it exists; false otherwise | Edit this page View Source TryGetResourceManager(string, out ResourceManager?) Tries to get the resource manager Declaration public static bool TryGetResourceManager(string name, out ResourceManager? resourceManager) Parameters Type Name Description string name Tag name of the resource manager to track ResourceManager resourceManager Output resource manager Returns Type Description bool True if it exists; false otherwise"
+  },
+  "api/ResourceLab.Management.html": {
+    "href": "api/ResourceLab.Management.html",
+    "title": "Namespace ResourceLab.Management | ResourceLab API - Aptivi",
+    "summary": "Namespace ResourceLab.Management Classes ResourcesManager Manages the resources"
+  },
   "index.html": {
     "href": "index.html",
     "title": "| ResourceLab API - Aptivi",

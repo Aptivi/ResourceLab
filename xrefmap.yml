@@ -1,3 +1,173 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: ResourceLab.Exceptions
+  name: ResourceLab.Exceptions
+  href: api/ResourceLab.Exceptions.html
+  commentId: N:ResourceLab.Exceptions
+  fullName: ResourceLab.Exceptions
+  nameWithType: ResourceLab.Exceptions
+- uid: ResourceLab.Exceptions.ResourceLabException
+  name: ResourceLabException
+  href: api/ResourceLab.Exceptions.ResourceLabException.html
+  commentId: T:ResourceLab.Exceptions.ResourceLabException
+  fullName: ResourceLab.Exceptions.ResourceLabException
+  nameWithType: ResourceLabException
+- uid: ResourceLab.Exceptions.ResourceLabException.#ctor
+  name: ResourceLabException()
+  href: api/ResourceLab.Exceptions.ResourceLabException.html#ResourceLab_Exceptions_ResourceLabException__ctor
+  commentId: M:ResourceLab.Exceptions.ResourceLabException.#ctor
+  name.vb: New()
+  fullName: ResourceLab.Exceptions.ResourceLabException.ResourceLabException()
+  fullName.vb: ResourceLab.Exceptions.ResourceLabException.New()
+  nameWithType: ResourceLabException.ResourceLabException()
+  nameWithType.vb: ResourceLabException.New()
+- uid: ResourceLab.Exceptions.ResourceLabException.#ctor(System.String)
+  name: ResourceLabException(string)
+  href: api/ResourceLab.Exceptions.ResourceLabException.html#ResourceLab_Exceptions_ResourceLabException__ctor_System_String_
+  commentId: M:ResourceLab.Exceptions.ResourceLabException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ResourceLab.Exceptions.ResourceLabException.ResourceLabException(string)
+  fullName.vb: ResourceLab.Exceptions.ResourceLabException.New(String)
+  nameWithType: ResourceLabException.ResourceLabException(string)
+  nameWithType.vb: ResourceLabException.New(String)
+- uid: ResourceLab.Exceptions.ResourceLabException.#ctor(System.String,System.Exception)
+  name: ResourceLabException(string, Exception)
+  href: api/ResourceLab.Exceptions.ResourceLabException.html#ResourceLab_Exceptions_ResourceLabException__ctor_System_String_System_Exception_
+  commentId: M:ResourceLab.Exceptions.ResourceLabException.#ctor(System.String,System.Exception)
+  name.vb: New(String, Exception)
+  fullName: ResourceLab.Exceptions.ResourceLabException.ResourceLabException(string, System.Exception)
+  fullName.vb: ResourceLab.Exceptions.ResourceLabException.New(String, System.Exception)
+  nameWithType: ResourceLabException.ResourceLabException(string, Exception)
+  nameWithType.vb: ResourceLabException.New(String, Exception)
+- uid: ResourceLab.Exceptions.ResourceLabException.#ctor*
+  name: ResourceLabException
+  href: api/ResourceLab.Exceptions.ResourceLabException.html#ResourceLab_Exceptions_ResourceLabException__ctor_
+  commentId: Overload:ResourceLab.Exceptions.ResourceLabException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ResourceLab.Exceptions.ResourceLabException.ResourceLabException
+  fullName.vb: ResourceLab.Exceptions.ResourceLabException.New
+  nameWithType: ResourceLabException.ResourceLabException
+  nameWithType.vb: ResourceLabException.New
+- uid: ResourceLab.Management
+  name: ResourceLab.Management
+  href: api/ResourceLab.Management.html
+  commentId: N:ResourceLab.Management
+  fullName: ResourceLab.Management
+  nameWithType: ResourceLab.Management
+- uid: ResourceLab.Management.ResourcesManager
+  name: ResourcesManager
+  href: api/ResourceLab.Management.ResourcesManager.html
+  commentId: T:ResourceLab.Management.ResourcesManager
+  fullName: ResourceLab.Management.ResourcesManager
+  nameWithType: ResourcesManager
+- uid: ResourceLab.Management.ResourcesManager.AddResourceManager(System.String,System.Resources.ResourceManager)
+  name: AddResourceManager(string, ResourceManager)
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_AddResourceManager_System_String_System_Resources_ResourceManager_
+  commentId: M:ResourceLab.Management.ResourcesManager.AddResourceManager(System.String,System.Resources.ResourceManager)
+  name.vb: AddResourceManager(String, ResourceManager)
+  fullName: ResourceLab.Management.ResourcesManager.AddResourceManager(string, System.Resources.ResourceManager)
+  fullName.vb: ResourceLab.Management.ResourcesManager.AddResourceManager(String, System.Resources.ResourceManager)
+  nameWithType: ResourcesManager.AddResourceManager(string, ResourceManager)
+  nameWithType.vb: ResourcesManager.AddResourceManager(String, ResourceManager)
+- uid: ResourceLab.Management.ResourcesManager.AddResourceManager*
+  name: AddResourceManager
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_AddResourceManager_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.AddResourceManager
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.AddResourceManager
+  nameWithType: ResourcesManager.AddResourceManager
+- uid: ResourceLab.Management.ResourcesManager.EditResourceManager(System.String,System.Resources.ResourceManager)
+  name: EditResourceManager(string, ResourceManager)
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_EditResourceManager_System_String_System_Resources_ResourceManager_
+  commentId: M:ResourceLab.Management.ResourcesManager.EditResourceManager(System.String,System.Resources.ResourceManager)
+  name.vb: EditResourceManager(String, ResourceManager)
+  fullName: ResourceLab.Management.ResourcesManager.EditResourceManager(string, System.Resources.ResourceManager)
+  fullName.vb: ResourceLab.Management.ResourcesManager.EditResourceManager(String, System.Resources.ResourceManager)
+  nameWithType: ResourcesManager.EditResourceManager(string, ResourceManager)
+  nameWithType.vb: ResourcesManager.EditResourceManager(String, ResourceManager)
+- uid: ResourceLab.Management.ResourcesManager.EditResourceManager*
+  name: EditResourceManager
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_EditResourceManager_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.EditResourceManager
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.EditResourceManager
+  nameWithType: ResourcesManager.EditResourceManager
+- uid: ResourceLab.Management.ResourcesManager.GetResourceManager(System.String)
+  name: GetResourceManager(string)
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_GetResourceManager_System_String_
+  commentId: M:ResourceLab.Management.ResourcesManager.GetResourceManager(System.String)
+  name.vb: GetResourceManager(String)
+  fullName: ResourceLab.Management.ResourcesManager.GetResourceManager(string)
+  fullName.vb: ResourceLab.Management.ResourcesManager.GetResourceManager(String)
+  nameWithType: ResourcesManager.GetResourceManager(string)
+  nameWithType.vb: ResourcesManager.GetResourceManager(String)
+- uid: ResourceLab.Management.ResourcesManager.GetResourceManager*
+  name: GetResourceManager
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_GetResourceManager_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.GetResourceManager
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.GetResourceManager
+  nameWithType: ResourcesManager.GetResourceManager
+- uid: ResourceLab.Management.ResourcesManager.RemoveResourceManager(System.String)
+  name: RemoveResourceManager(string)
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_RemoveResourceManager_System_String_
+  commentId: M:ResourceLab.Management.ResourcesManager.RemoveResourceManager(System.String)
+  name.vb: RemoveResourceManager(String)
+  fullName: ResourceLab.Management.ResourcesManager.RemoveResourceManager(string)
+  fullName.vb: ResourceLab.Management.ResourcesManager.RemoveResourceManager(String)
+  nameWithType: ResourcesManager.RemoveResourceManager(string)
+  nameWithType.vb: ResourcesManager.RemoveResourceManager(String)
+- uid: ResourceLab.Management.ResourcesManager.RemoveResourceManager*
+  name: RemoveResourceManager
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_RemoveResourceManager_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.RemoveResourceManager
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.RemoveResourceManager
+  nameWithType: ResourcesManager.RemoveResourceManager
+- uid: ResourceLab.Management.ResourcesManager.ResourceManagerExists(System.String)
+  name: ResourceManagerExists(string)
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_ResourceManagerExists_System_String_
+  commentId: M:ResourceLab.Management.ResourcesManager.ResourceManagerExists(System.String)
+  name.vb: ResourceManagerExists(String)
+  fullName: ResourceLab.Management.ResourcesManager.ResourceManagerExists(string)
+  fullName.vb: ResourceLab.Management.ResourcesManager.ResourceManagerExists(String)
+  nameWithType: ResourcesManager.ResourceManagerExists(string)
+  nameWithType.vb: ResourcesManager.ResourceManagerExists(String)
+- uid: ResourceLab.Management.ResourcesManager.ResourceManagerExists*
+  name: ResourceManagerExists
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_ResourceManagerExists_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.ResourceManagerExists
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.ResourceManagerExists
+  nameWithType: ResourcesManager.ResourceManagerExists
+- uid: ResourceLab.Management.ResourcesManager.ResourceManagers
+  name: ResourceManagers
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_ResourceManagers
+  commentId: P:ResourceLab.Management.ResourcesManager.ResourceManagers
+  fullName: ResourceLab.Management.ResourcesManager.ResourceManagers
+  nameWithType: ResourcesManager.ResourceManagers
+- uid: ResourceLab.Management.ResourcesManager.ResourceManagers*
+  name: ResourceManagers
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_ResourceManagers_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.ResourceManagers
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.ResourceManagers
+  nameWithType: ResourcesManager.ResourceManagers
+- uid: ResourceLab.Management.ResourcesManager.TryGetResourceManager(System.String,System.Resources.ResourceManager@)
+  name: TryGetResourceManager(string, out ResourceManager?)
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_TryGetResourceManager_System_String_System_Resources_ResourceManager__
+  commentId: M:ResourceLab.Management.ResourcesManager.TryGetResourceManager(System.String,System.Resources.ResourceManager@)
+  name.vb: TryGetResourceManager(String, ResourceManager)
+  fullName: ResourceLab.Management.ResourcesManager.TryGetResourceManager(string, out System.Resources.ResourceManager?)
+  fullName.vb: ResourceLab.Management.ResourcesManager.TryGetResourceManager(String, System.Resources.ResourceManager)
+  nameWithType: ResourcesManager.TryGetResourceManager(string, out ResourceManager?)
+  nameWithType.vb: ResourcesManager.TryGetResourceManager(String, ResourceManager)
+- uid: ResourceLab.Management.ResourcesManager.TryGetResourceManager*
+  name: TryGetResourceManager
+  href: api/ResourceLab.Management.ResourcesManager.html#ResourceLab_Management_ResourcesManager_TryGetResourceManager_
+  commentId: Overload:ResourceLab.Management.ResourcesManager.TryGetResourceManager
+  isSpec: "True"
+  fullName: ResourceLab.Management.ResourcesManager.TryGetResourceManager
+  nameWithType: ResourcesManager.TryGetResourceManager
