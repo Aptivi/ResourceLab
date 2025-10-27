@@ -1,0 +1,22 @@
+﻿<Project Sdk="MSTest.Sdk/4.0.1">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net48</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shouldly" Version="4.3.0" />
+
+    <PackageReference Remove="Microsoft.SourceLink.GitHub" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\public\ResourceLab\ResourceLab.csproj" />
+    <ProjectReference Include="..\ResDemo1\ResDemo1.csproj" />
+    <ProjectReference Include="..\ResDemo2\ResDemo2.csproj" />
+    <ProjectReference Include="..\ResDemo3\ResDemo3.csproj" />
+  </ItemGroup>
+
+</Project>

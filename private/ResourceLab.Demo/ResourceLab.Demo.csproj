@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\public\ResourceLab\ResourceLab.csproj" />
+    <ProjectReference Include="..\ResDemo1\ResDemo1.csproj" />
+    <ProjectReference Include="..\ResDemo2\ResDemo2.csproj" />
+    <ProjectReference Include="..\ResDemo3\ResDemo3.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Remove="Microsoft.SourceLink.GitHub" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Terminaux" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>
