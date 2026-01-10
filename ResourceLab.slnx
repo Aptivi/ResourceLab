@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Assets/">
+    <File Path="CHANGES" />
+    <File Path="CHANGES.TITLE" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Folder Name="/Private/">
+    <Project Path="private/ResourceLab.Demo/ResourceLab.Demo.csproj" />
+    <Project Path="private/ResourceLab.Tests/ResourceLab.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Private/DemoLibs/">
+    <Project Path="private/ResDemo1/ResDemo1.csproj" />
+    <Project Path="private/ResDemo2/ResDemo2.csproj" />
+    <Project Path="private/ResDemo3/ResDemo3.csproj" />
+  </Folder>
+  <Folder Name="/Private/Helpers/">
+    <Project Path="private/BuildTargets/BuildTargets.csproj" />
+  </Folder>
+  <Folder Name="/Public/">
+    <Project Path="public/ResourceLab/ResourceLab.csproj" />
+  </Folder>
+</Solution>
