@@ -14,7 +14,7 @@
     <Project Path="private/ResDemo3/ResDemo3.csproj" />
   </Folder>
   <Folder Name="/Private/Helpers/">
-    <Project Path="private/BuildTargets/BuildTargets.csproj" />
+    <Project Path="private/Dtp/Dtp.csproj" />
   </Folder>
   <Folder Name="/Public/">
     <Project Path="public/ResourceLab/ResourceLab.csproj" />
